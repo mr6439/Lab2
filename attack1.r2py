@@ -19,7 +19,7 @@ myfile=ABopenfile("testfile.txt",True)
 
 # Read the file to check the contents
 try:
- assert('Smr6439E' == myfile.readat(14,0))
+ assert('Smr6439E' == myfile.readat(8,0))
  #Close the file
  myfile.close()
 except:
