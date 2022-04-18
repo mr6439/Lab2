@@ -24,4 +24,4 @@ try:
  #Close the file
  myfile.close()
 except:
- log("Reopening an existing file is unsuccessfull! Accuracy compromised!!!")
+ #log("unsuccessfull")
